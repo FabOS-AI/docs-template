@@ -24,7 +24,10 @@ To develop and test your site inside a container using VS Code, follow these sta
 1. Type "Ctrl-Shift-P" and enter "Show Remote Menu"
 2. In the "Remote Menu" select "Open Folder in Container ..." and select the "docs" folder
 3. Wait for container created and started for VS Code remote development.
-4. Start Jekyll server by ``bundle exec jekyll serve --livereload``
+4. Start Jekyll server by 
+```sh
+bundle exec jekyll serve --livereload
+```
 5. Open http://localhost:4000
 
 ## Release on Github Pages
